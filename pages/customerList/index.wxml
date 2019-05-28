@@ -1,0 +1,6 @@
+<!--pages/customerList/customerList.wxml-->
+<view class="container">
+	<view class="cus-list">
+		<sort-list list="{{customerList}}" hasHeadImg="{{true}}"></sort-list>
+	</view>
+</view>

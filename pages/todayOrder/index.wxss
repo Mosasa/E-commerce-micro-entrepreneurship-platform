@@ -1,0 +1,133 @@
+/* pages/todayOrder/todayOrder.wxss */
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container .header-tab {
+	width: 100%;
+	height: 160rpx;
+	background: #000;
+	display: flex;
+	position: relative;
+}
+.container .header-tab .select-date {
+	width: 30%;
+	height: 140rpx;
+	color: #ffffff;
+	text-align: center;
+	/* display: flex;
+	flex-direction: column;
+	align-items: center; */
+	margin-top: 10rpx;
+	border-right: 0.5rpx solid #ffffff;
+	position: relative;
+}
+.container .header-tab .select-date .show-select {
+	width: 100%;
+	height: 100rpx;
+}
+.container .header-tab .select-date .select-text{
+	position: absolute;
+	top: 40rpx;
+	left: 42rpx;
+}
+.container .header-tab .select-date .select-img {
+	width: 40rpx;
+	height: 40rpx;
+	position: absolute;
+	top: 48rpx;
+	left: 130rpx;
+}
+.container .header-tab .select-date .showPulldown {
+	width: 100%;
+	height: 150rpx;
+	line-height: 70rpx;
+	background: #000000;
+	position: absolute;
+	top: 100rpx;
+}
+.container .header-tab .total-saled {
+	height: 140rpx;
+	color: #ffffff;
+	display: flex;
+	flex: 1;
+	justify-content: left;
+	position: absolute;
+	top: 38rpx;
+	right: 0rpx;
+}
+.container .header-tab .total-saled .total-money {
+	font-size: 34rpx;
+	margin-right: 62rpx;
+}
+.container .header-tab .total-saled .total-money .sale-profit {
+	font-size: 40rpx;
+}
+.container .saled-list {
+	width: 100%;
+}
+.container .saled-list .dateincome-mess {
+	width: 100%;
+	height: 80rpx;
+	line-height: 80rpx;
+	background: #e6e6e6;
+	border-bottom: 0.5rpx solid #bfbfbf;
+}
+.container .saled-list .dateincome-mess .mess-list {
+	width: 90%;
+	margin-left: 5%;
+	color: #8B8989;
+	font-size: 32rpx;
+	display: flex;
+	justify-content: space-between;
+}
+.container .dateincome-list {
+	width: 100%;
+}
+.container .dateincome-list .list-det {
+	width: 97%;
+	margin-left: 1.5%;
+	height: 130rpx;
+	line-height: 130rpx;
+	display: flex;
+	border-bottom: 0.5rpx solid #bfbfbf;
+}
+.container .dateincome-list .list-det .saled-time {
+	width: 20%;
+	color: #8B8989;
+	font-size: 32rpx;
+	text-align: center;
+}
+.container .dateincome-list .list-det .storing {
+	width: 60%;
+	margin-left: 12rpx;
+	line-height: 60rpx;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
+/* .container .dateincome-list .list-det .storing .storing-name {
+	
+} */
+.container .dateincome-list .list-det .storing .storing-num {
+	font-size: 34rpx;
+	color: #8B8989;
+}
+.container .dateincome-list .list-det .saled-money {
+	font-size: 40rpx;
+	color: #EE0000;
+}
+.container .no-has {
+	width: 50%;
+	height: 400rpx;
+	line-height: 100rpx;
+	margin-left: 25%;
+	margin-top: 300rpx;
+	text-align: center;
+}
+.container .no-has image {
+	width: 200rpx;
+	height: 200rpx;
+	display: inline-block;
+}

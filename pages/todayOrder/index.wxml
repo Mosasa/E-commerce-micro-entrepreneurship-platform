@@ -1,0 +1,46 @@
+<!--pages/todayOrder/todayOrder.wxml-->
+<view class="container">
+  <view class="header-tab">
+		<view class="select-date">
+			<view class="show-select" bindtap="showSelect" data-name="今日">
+				<text class="select-text">{{selectedDay}}</text>
+				<image class="select-img" wx:if="{{selected}}" src="../../images/pullup.png"></image>
+				<image class="select-img" wx:else src="../../images/pulldown.png"></image>
+			</view>
+			<view class="showPulldown"  wx:if="{{selected}}">
+				<view class="select-one" bindtap="selectday" data-name="今日">今日</view>
+				<view class="select-one" bindtap="selectday" data-name="昨日">昨日</view>
+			</view>
+		</view>
+		<view class="total-saled">
+			<view class="total-money" wx:for="{{saledProfit}}">
+				<view class="income-text">{{item.incomeText}}</view>
+				<view class="sale-profit">{{item.profitMoney}}</view>
+			</view>
+		</view>
+	</view>
+	<!-- 已售列表 -->
+	<view class="saled-list" wx:if="{{dateIncomeList.length > 0}}">
+		<view class="dateincome-mess">
+			<view class="mess-list">
+				<text class="mess">{{dateMess}}</text>
+				<text class="mess">总金额：￥{{incomeMess}}</text>
+			</view>
+		</view>
+		<scroll-view class="dateincome-list">
+			<view class="list-det" wx:for="{{dateIncomeList}}">
+				<view class="saled-time">{{item.saledTime}}</view>
+				<view class="storing">
+					<text class="storing-name">{{item.storingName}}</text>
+					<text class="storing-num">x{{item.storingNum}}</text>
+				</view>
+				<view class="saled-money">￥{{item.saledMoney}}</view>
+			</view>
+		</scroll-view>
+	</view>
+	<view class="no-has" wx:else>
+		<image class="" src="../../images/no-has.png">
+		</image>
+		<view>暂无订单</view>
+	</view>
+</view>

@@ -1,0 +1,90 @@
+/* pages/storePage/storePage.wxss */
+.container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	background: #F5F5F5;
+}
+.container .header {
+	width: 100%;
+	height: 400rpx;
+	line-height: 60rpx;
+	font-size: 40rpx;
+	color: #ffffff;
+	/* background: rgba(211, 211, 211, 0.3); */
+	background: url("http://img5.imgtn.bdimg.com/it/u=3907234627,4253969972&fm=26&gp=0.jpg");
+	/* background-size: 100% 120rpx; */
+	text-align: right;
+}
+.container .header text {
+	margin-right: 80rpx;
+}
+.container .income-managed {
+	width: 100%;
+	height: 200rpx;
+	display: flex;
+	background: #ffffff;
+}
+.container .income-managed .income-list {
+	width: 50%;
+	height: 80%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin-top: 3%;
+}
+.container .income-managed .income-list .room-income {
+	font-size: 36rpx;
+}
+.container .income-managed .income-list .total-money {
+	font-size: 54rpx;
+}
+.container .income-managed .income-list .order-num {
+	font-size: 30rpx;
+}
+.container .managed-list {
+	width: 100%;
+	height: 460rpx;
+	display: flex;
+	flex-wrap: wrap;
+	background: #ffffff;
+	/* margin-left: 10rpx; */
+	margin-top: 26rpx;
+}
+.container .managed-list .store-mess {
+	width: 186rpx;
+	height: 230rpx;
+	text-align: center;
+	position: relative;
+}
+.container .managed-list .store-mess .store-icon {
+	width: 120rpx;
+	height: 120rpx;
+	line-height: 142rpx;
+	text-align: center;
+	border-radius: 50%;
+	position: absolute;
+	top: 30rpx;
+	left: 34rpx;
+}
+.container .managed-list .store-mess .store-text {
+	font-size: 32rpx;
+	color: #000;
+	position: absolute;
+	top: 180rpx;
+	left: 30rpx;
+}
+.container .managed-list .store-mess .store-icon .icon-img {
+	width: 50%;
+	height: 50%;
+}
+
+/* .container van-badge-group {
+	position: fixed;
+	top: 120rpx;
+	left: 0;
+}
+.container van-badge-group van-badge {
+} */

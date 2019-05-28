@@ -1,0 +1,32 @@
+<!--pages/storePage/storePage.wxml-->
+<view class="container"> 
+	<view class="header">
+		<text class="" selectable="false" space="false" decode="false">
+			{{storeMessage.storeName}}
+		</text>
+	</view>
+	<view class="income-managed">
+		<view class="income-list" style="border-left: {{item.borderLeft}}">
+			<view class="room-income">{{storeTotal.incomeText}}</view>
+			<view class="total-money">{{storeTotal.TotalMoney}}</view>
+			<view class="order-num">
+				订单数：{{storeTotal.orderNum}}笔
+			</view>
+		</view>
+		<view class="income-list" style="border-left: {{item.borderLeft}}">
+			<view class="room-income">{{perTotal.incomeText}}</view>
+			<view class="total-money">{{perTotal.TotalMoney}}</view>
+			<view class="order-num">
+				订单数：{{perTotal.orderNum}}笔
+			</view>
+		</view>
+	</view>
+	<view class="managed-list">
+		<view class="store-mess" wx:for="{{storeManaged}}" wx:key="{{index}}" data-index="{{index}}" bindtap="selectManaged" style="border-top: {{item.borderTop}}; border-right: {{item.borderRight}};border-left: {{item.borderLeft}}; border-bottom: {{item.borderBottom}}">
+			<view class="store-icon" style="background-color:{{item.backgroundColor}}">
+				<image class="icon-img" src="{{item.managedImg}}" />
+			</view>
+			<text class="store-text">{{item.managedText}}</text>
+		</view>
+	</view>
+</view>

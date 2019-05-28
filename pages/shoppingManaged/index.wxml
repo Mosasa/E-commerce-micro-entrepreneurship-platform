@@ -1,0 +1,11 @@
+<!--pages/shoppingManaged/shoppingManaged.wxml-->
+<view class="container">
+  <view class="shopping-list">
+		<van-swipe-cell id="swipe-cell" async-close bind:close="onClose">
+			<van-cell-group>
+				<store-list list="{{storeList}}" hasHeadImg="{{true}}" hasPrice="{{true}}" hasMore="{{true}}" priceColor="red" bind:toDetail="toStoreDetail"></store-list>
+			</van-cell-group>
+			<!-- <view slot="right" class="down-shift" bindtap="downShift">下架</view> -->
+		</van-swipe-cell>
+	</view>
+</view>

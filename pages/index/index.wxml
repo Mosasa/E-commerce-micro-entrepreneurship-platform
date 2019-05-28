@@ -1,0 +1,62 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="userinfo" wx:if="{{hasUserInfo}}">
+    <!-- <van-notice-bar
+      class="notice-bar"
+      left-icon="../../images/nav/mess.png"
+      mode="link"
+      speed="40"
+      text="{{noticeText || '暂无更多消息'}}"
+      bind:click="toMessInfo"
+    /> -->
+    <view class="header-img">
+      <image src="../../images/headerimg2.jpeg" alt="" />
+    </view>
+    <view class="scroll-content">
+      <view class="title">最新发布</view>
+      <view class="title-content" >
+        <view scroll-x="{{isScroll}}" class="title-content-det">
+          <view wx:for="{{scrollContent}}" class="det-div" bindtap="goDetail" data-id="{{item.id}}">
+            <view class="title-date">{{item.createDate}}</view>
+            <image class="title-image" wx:if="{{item.titleImg}}" src="{{item.titleImg}}"></image>
+            <image class="title-image" wx:else src="../../images/zwPic.jpg"></image>
+            <view class="title-text">{{item.titleText}}</view>
+          </view>
+          <!-- <view wx:if="{{!hasScrollContent}}" class="no-has-content">暂无最新发布</view> -->
+          <!-- <image class="title-image" src="{{item.titleImg}}"></image>
+          <text class="title-text">{{item.titleText}}</text> -->
+        </view>
+      </view>
+    </view>
+    <view class="achievement-list">
+      <view class="list-title">周绩大榜</view>
+      <scroll-view class="scroll-list" scroll-y>
+        <achieve-list list="{{achieveList}}" hasHeadImg="{{true}}" hasPrice="{{true}}" hasNumber="{{false}}" priceColor="red"></achieve-list>
+      </scroll-view>
+    </view>
+    <view class="susDiv">
+      <view class="suspendView" bindtap="releaseCommodities" hover-class="none" hover-stop-propagation="false">
+        <span><i>发布商品</i></span>
+      </view>
+      <view class="suspendView" bindtap="toBrowse"  hover-class="none" hover-stop-propagation="false">
+        <span><i>去逛一逛</i></span>
+      </view>
+      <!-- <view class="suspendView" bindtap="sendMess" hover-class="none" hover-stop-propagation="false">
+        <span><i>发消息</i></span>
+      </view> -->
+      <view class="suspendView" bindtap="toShopCart" hover-class="none" hover-stop-propagation="false">
+        <span><i>购物车</i></span>
+      </view>
+    </view>
+  </view> 
+  <view class="mask-info" wx:else>
+    <!-->获取用户信息<!-->
+    <van-popup show="{{ maskShow }}">
+      <!-->获取用户信息<!-->
+      <view class="mask-pop">
+        <view class="mask-txt">微信授权登录</view>
+        <button class="mask-btn" open-type="getUserInfo" bindgetuserinfo="getUserInfo">getUserInfo</button>
+      </view>
+    </van-popup>
+  </view>
+</view>

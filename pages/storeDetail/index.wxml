@@ -1,0 +1,62 @@
+<!--pages/storeDetail/storeDetail.wxml-->
+<view class="container">
+  <view class="detail-content">
+		<van-cell-group>
+			<van-cell title="商品上架">
+				<van-switch disabled="{{readonly}}" slot="right-icon" checked="{{ checked }}" size="24px" bind:change="onChange" active-color="#07c160" />
+			</van-cell>
+		</van-cell-group>
+		<van-cell-group>
+			<van-field 
+				label="商品名称"
+				input-align="right"
+				value="{{ className }}"
+				readonly="{{readonly}}"
+				bind:change="nameChange">
+			</van-field>
+		</van-cell-group>
+		<van-cell-group>
+			<van-field 
+				label="商品分类"
+				input-align="right"
+				value="{{ classifies }}"
+				readonly="{{readonly}}"
+				bind:change="classifiesChange"
+				use-button-slot
+			>
+			</van-field>
+		</van-cell-group>
+		<van-cell-group>
+			<van-field 
+				label="商品库存"
+				input-align="right"
+				value="{{ classNum }}"
+				readonly="{{readonly}}"
+				bind:change="numChange"
+			>
+			</van-field>
+		</van-cell-group>
+		<van-cell-group>
+			<van-field 
+				label="商品价格"
+				input-align="right"
+				value="￥{{ classPrice }}"
+				readonly="{{readonly}}"
+				bind:change="priceChange"
+			>
+			</van-field>
+		</van-cell-group>
+		<van-cell-group>
+			<van-field 
+				label="商品详情"
+				type="textarea"
+				autosize
+				input-align="right"
+				value="{{ classDetail }}"
+				readonly="{{readonly}}"
+				bind:change="detailChange"
+			>
+			</van-field>
+		</van-cell-group>
+	</view>
+</view>

@@ -1,0 +1,10 @@
+/* pages/messCenter/messCenter.wxss */
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container .mess-center {
+	width: 100%;
+	height: 100%;
+}

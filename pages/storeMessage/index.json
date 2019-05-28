@@ -1,0 +1,7 @@
+{
+  "usingComponents": {
+    "van-radio": "/static/vant/radio/index",
+    "van-radio-group": "/static/vant/radio-group/index",
+    "van-field": "/static/vant/field/index"
+  }
+}

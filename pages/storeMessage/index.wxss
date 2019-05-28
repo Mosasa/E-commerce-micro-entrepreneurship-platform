@@ -1,0 +1,72 @@
+/* pages/storeMessage/storeMessage.wxss */
+.container {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container .storeNameAddr {
+	width: 100%;
+	height: 200rpx;
+	border-bottom: 0.5rpx solid #CFCFCF;
+}
+.container .storeNameAddr .store-name {
+	border-bottom: 0.5rpx solid #CFCFCF;
+}
+.container .storeNameAddr .store-name, .store-address {
+	width: 96%;
+	height: 100rpx;
+	line-height: 100rpx;
+	margin-left: 2%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 36rpx;
+	position: relative;
+}
+.container .storeNameAddr .store-name input {
+	text-align: right;
+	position: absolute;
+	top: 26rpx;
+	right: 0rpx;
+}
+.container .storeNameAddr .store-address input {
+	text-align: right;
+	position: absolute;
+	top: 26rpx;
+	right: 0rpx;
+}
+.container .business-detail {
+	width: 100%;
+	border-bottom: 0.5rpx solid #CFCFCF;
+}
+.container .business-detail .business-status {
+	width: 96%;
+	height: 100rpx;
+	line-height: 100rpx;
+	margin-left: 2%;
+	display: flex;
+	justify-content: space-between;
+	font-size: 36rpx;
+	position: relative;
+}
+.container .business-detail .business-status .radio-group {
+	display: flex;
+	justify-content: right;
+	position: absolute;
+	top: 26rpx;
+	right: 0rpx;
+}
+.container .edit-complete {
+	width: 60%;
+	height: 90rpx;
+	line-height: 90rpx;
+	text-align: center;
+	margin-left: 20%;
+	margin-top: 120rpx;
+	background: #01b468;
+	border-top-left-radius: 15rpx;
+	border-top-right-radius: 15rpx;
+	border-bottom-left-radius: 15rpx;
+	border-bottom-right-radius: 15rpx;
+}
+

@@ -1,0 +1,30 @@
+/* pages/addStore/addStore.wxss */
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container .form-content {
+	width: 100%;
+	height: 100%;
+}
+.container .form-content .left-icon {
+	width: 40rpx;
+	height: 40rpx;
+	margin-right: 10rpx;
+	margin-top: 2rpx;
+}
+.container .form-content .init-group {
+	width: 100%;
+	min-height: 200rpx;
+	height: auto;
+}
+.container .pop-content {
+	width: 100%;
+	height: 540rpx;
+	position: relative;
+	z-index: 20;
+}
+.container .confirm-btn {
+	margin-top: 60rpx;
+}

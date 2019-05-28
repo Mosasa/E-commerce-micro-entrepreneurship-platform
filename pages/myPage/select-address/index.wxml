@@ -1,0 +1,23 @@
+<view class="container">
+    <view class="address-list" wx:if="{{addressList.length > 0}}">
+		<view class="a-address"  wx:for-items="{{addressList}}" wx:key="{{index}}" >
+             <view class="left-text {{item.isDefault === 1 ? 'active' : ''}}" bindtap="selectTap" data-id="{{item.id}}" data-index="{{index}}">
+                 <view class="name-tel">
+                    {{item.linkMan}}  {{item.mobile}}
+                 </view>
+                 <view class="address-box">
+                    {{item.address}}
+                 </view>     
+             </view>   
+             <view class="right-edit" bindtap="editAddress" data-id="{{item.id}}"></view> 
+        </view>
+		</view>
+		<view wx:else class="no-address">
+				<image src="../../../images/no-address.png"></image>
+				<view class="text"> 暂无地址信息</view>
+		</view>
+    <view class="bottom-box">
+        <view class="add-btn" bindtap="addAddress">新增收货地址</view>
+    </view>
+
+</view>

@@ -1,0 +1,6 @@
+<!--pages/clerkList/clerkList.wxml-->
+<view class="container">
+	<view class="cus-list">
+		<sort-list list="{{clerkList}}" hasNum="{{true}}" hasIncome="{{true}}" hasHeadImg="{{true}}"></sort-list>
+	</view>
+</view>

@@ -1,0 +1,11 @@
+/* pages/storeDetail/storeDetail.wxss */
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container .detail-content {
+	width: 100%;
+	margin-top: 30rpx;
+	line-height: 10rpx;
+}

@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "van-notice-bar": "/static/vant/notice-bar/index",
+    "van-button": "/static/vant/button/index",
+    "achieve-list": "/components/list/list",
+    "van-popup": "/static/vant/popup/index"
+  }
+}

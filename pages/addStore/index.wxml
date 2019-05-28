@@ -1,0 +1,135 @@
+<!--pages/addStore/addStore.wxml-->
+<view class="container">
+  <view wx-if="{{!commodityId}}" class="form-content">
+		<van-cell-group>
+			<van-field
+				value="{{ className }}"
+				clearable
+				label="商品名称"
+				placeholder="请输入商品名称"
+				bind:change="inputClassName"
+				use-icon-slot
+			>
+			<image slot="left-icon" class="left-icon" src="../../images/shopping.png"></image>
+			</van-field>
+		</van-cell-group>
+		<van-cell-group>
+  		<van-field
+				value="{{ classifies }}"
+				center
+				clearable
+				label="商品分类"
+				placeholder="请输入商品分类"
+				border="{{ false }}"
+				use-button-slot
+				use-icon-slot
+			>
+			<van-button slot="button" size="small" type="primary" bind:click="selectClassify">选择分类</van-button>
+			<image slot="left-icon" class="left-icon" src="../../images/classify.png"></image>
+  		</van-field>
+		</van-cell-group>
+		<van-cell-group>
+  		<van-field
+				value="{{ classNum }}"
+				label="商品库存"
+				center
+				clearable
+				placeholder="请输入商品库存"
+				bind:change="inputClassNum"
+				border="{{ false }}"
+				use-icon-slot
+			>
+			<image slot="left-icon" class="left-icon" src="../../images/classNum.png"></image>
+			</van-field>
+		</van-cell-group>
+		<van-cell-group>
+  		<van-field
+				value="{{ classPrice }}"
+				label="商品价格"
+				center
+				clearable
+				placeholder="请输入商品价格"
+				bind:change="inputClassPrice"
+				border="{{ false }}"
+				use-icon-slot
+			>
+			<image slot="left-icon" class="left-icon" src="../../images/classPrice.png"></image>
+			</van-field>
+		</van-cell-group>
+		<!-- <van-cell-group>
+  		<van-field
+				value="{{ classPic }}"
+				center 
+				clearable
+				label="商品图片"
+				placeholder="请输入商品图片"
+				border="{{ false }}"
+				use-button-slot
+				use-icon-slot
+			>
+			<van-button slot="button" size="small" type="primary" bind:click="selectPic">选择图片</van-button>
+			<image slot="left-icon" class="left-icon" src="../../images/classPic.png"></image>
+  		</van-field>
+		</van-cell-group> -->
+		<van-cell-group custom-class="init-group">
+  		<van-field
+				value="{{ conDetail }}"
+				label="商品详情"
+				type="textarea"
+				placeholder="请输入商品详情介绍"
+				bind:change="inputConDetail"
+				autosize
+				border="{{ false }}"
+				use-icon-slot
+			>
+			<image slot="left-icon" class="left-icon" src="../../images/conDetail.png"></image>
+			</van-field>
+		</van-cell-group>
+	</view>
+	<view wx-if="{{!commodityId}}" class="confirm-btn">
+		<van-button size="large" bind:click="release">创建</van-button>
+	</view>
+	<view wx-if="{{commodityId}}" class="form-content">
+		<view> 添加图片</view>
+		<van-cell-group>
+  		<van-field
+				value="{{ classPic }}"
+				center 
+				clearable
+				label="商品图片"
+				placeholder="请输入商品图片"
+				border="{{ false }}"
+				use-button-slot
+				use-icon-slot
+			>
+			<van-button slot="button" size="small" type="primary" bind:click="selectPic">选择图片</van-button>
+			<image slot="left-icon" class="left-icon" src="../../images/classPic.png"></image>
+  		</van-field>
+		</van-cell-group>
+
+		<view class="confirm-btn">
+			<van-button size="large" bind:click="go">无需图片直接发布</van-button>
+		</view>
+	</view>
+	<view class="pop-content">
+		<van-popup show="{{ popShow }}" bind:close="onClose">
+			<van-picker 
+				columns="{{ columns }}" 
+				show-toolbar
+				title="分类列表"
+				bind:cancel="onCancel"
+				bind:confirm="onConfirm">
+			</van-picker>
+		</van-popup>
+	</view>
+	<view class="pop-top">
+		<van-popup
+			show="{{ popTopShow }}"
+			position="top"
+			overlay="{{ false }}"
+			custom-style="{{customStyle}}"
+		>
+  	{{popContent}}
+		</van-popup>
+	</view>
+</view>

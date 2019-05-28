@@ -1,0 +1,19 @@
+<view class="container">
+	<view class="order-list">
+		<view class="order-det" wx:for="{{orderList}}" wx:key="{{item.id}}" data-id="{{item.linkId}}" bindtap="toOrderDetail">
+			<view class="trade-name">
+				<image class="trade-img" src="../../images/trade.png"></image>
+				<text class="trade-text" selectable="false" space="false" decode="false">
+					{{item.tradeName}}
+				</text>
+			</view>
+			<view class="order-mess">
+				<view class="cus-mess">
+					<view>下单用户：{{item.customerName}}</view>
+					<view>下单时间：{{item.orderTime}}</view>
+				</view>
+				<view class="order-status" style="color: {{item.statusColor}}">{{item.statusText}}</view>
+			</view>
+		</view>
+	</view>
+</view>

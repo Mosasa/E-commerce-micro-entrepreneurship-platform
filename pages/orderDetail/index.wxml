@@ -1,0 +1,49 @@
+<!--pages/orderDetail/orderDetail.wxml-->
+<view class="container">
+	<!-- <view class="step-managed" wx:if="{{hasStepList}}">
+		<view class="step-list">
+			<van-steps
+				steps="{{ steps }}"
+				active="{{ active }}"
+			/>
+		</view>
+		<view class="step-btn" bindtap="toNextStep" wx:if="{{showBtn}}">
+			<button>{{btnText}}</button>
+		</view>
+	</view> -->
+	<view class="order-detail">
+		<view class="det-nav"></view>
+		<view class="det-header">
+			<view class="order-id">
+				<span>订单</span>
+				<i>{{orderId}}</i>
+			</view>
+			<!-- <view class="order-status">
+				<span>状态</span>
+				<i>{{orderStatus}}</i>
+			</view> -->
+		</view>
+		<view class="det-content">
+			<view class="con-header">
+				<view class="con1">商品</view>
+				<view class="con2">数量</view>
+				<view class="con3">总计</view>
+				<view class="con4">操作</view>
+			</view>
+			<view class="con-list" wx:for="{{conList}}">
+				<view class="list1">{{item.conName}}</view>
+				<view class="list2">{{item.conNum}}</view>
+				<view class="list3">¥ {{item.conPrice}}</view>
+				<view class="list4"><van-button data-item="{{item}}" data-index="{{index}}" disabled="{{item.status === 1 || item.creatorId !== openid}}" bind:click="changeStatus" size="small" type="primary">{{item.statusBtn}}</van-button></view>
+			</view>
+			<view class="list-total">¥ {{totalPrice}}</view>
+			<view class="send-mess">
+				<view class="mess-title">配送信息</view>
+				<view class="username">客户姓名：{{userMess.userName}}</view>
+				<view class="user-address">客户地址：{{userMess.userAddress}}</view>
+				<view class="user-mobile">联系电话: {{userMess.userMobile}}</view>
+				<view class="user-mobile">订单备注: {{userMess.remark}}</view>
+			</view>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,38 @@
+<!--pages/user/user.wxml-->
+<view class="container" hover-class="none" hover-stop-propagation="false">
+	<view class="myInfo">
+		<view class="user-info" bindtap="toMyPage">
+			<image class="user-img" src="../../images/user1.png" alt="" />
+			<text class="user-name">我的主页</text>
+		</view>
+		<view class="saler-info"  bindtap="toStorePage">
+			<image class="saler-img" src="../../images/user2.png" alt="" />
+			<text class="saler-name">店铺主页</text>
+		</view>
+	</view>
+	<van-popup show="{{ show }}" bind:close="onClose">
+		<view class="popDiv" hover-class="none" hover-stop-propagation="false">
+			<view class="nameDiv">
+				<text class="userName">用户名：</text><input type="text" auto-focus="{{true}}" bindinput="bindNameInput" placeholder="请输入用户名" />
+			</view>
+			<view class="nameDiv">
+				<text class="dormitoryNumber">寝室号：</text><input type="text" bindinput="bindNumberInput" placeholder="请输入寝室号" />
+			</view>
+			<view class="nameDiv">
+				<text class="mobile">手机号：</text><input type="text" bindinput="bindMobileInput" placeholder="请输入联系方式" />
+			</view>
+			<button bindtap="cancel">取消</button>
+			<button bindtap="confirm">确认</button>
+		</view>
+	</van-popup>
+	<van-popup
+		show="{{ showNameWarn }}"
+		position="top"
+		overlay="{{ false }}"
+		custom-style="{{customStyle}}"
+		feature="{{ true }}"
+	>
+  	{{warnText}}
+	</van-popup>
+	<van-toast id="van-toast" />
+</view>

@@ -1,0 +1,37 @@
+<!--pages/storeMessage/storeMessage.wxml-->
+<view class="container">
+	<view class="storeNameAddr">
+		<view class="store-name">
+			<text class="name-ques">店铺名称：</text>
+			<input type="text" value="{{storeMess.storeName}}" bindinput="editStoreName" />
+		</view>
+		<view class="store-address">
+			<text class="name-ques">店铺地址：</text>
+			<input type="text" value="{{storeMess.storeAddress}}" bindinput="editStoreAddress" />
+		</view>
+	</view>
+	<view class="business-detail">
+		<view class="business-status">
+			<text class="name-ques">营业状态：</text>
+			<van-radio-group value="{{ storeStatus }}" class="radio-group" bind:change="onChange">
+				<van-radio name="1" checked-color="#3CB371">营业中</van-radio>
+				<van-radio name="-1" checked-color="#3CB371">休息中</van-radio>
+			</van-radio-group>
+		</view>
+	</view>
+	<!-- <view class="mess-detail">
+		<van-cell-group>
+			<van-field
+				value="{{ message }}"
+				label="店铺简介："
+				type="textarea"
+				value="{{storeDetail}}"
+				autosize
+				border="{{ false }}"
+			/>
+		</van-cell-group>
+	</view> -->
+	<view class="edit-complete" bindtap="editComplete">修改完成</view>
+</view>
+
+

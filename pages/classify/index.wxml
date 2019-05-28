@@ -1,0 +1,27 @@
+<!--index.wxml-->
+<!--pages/index/index.wxml-->
+<view class="container">
+  <scroll-view class="type-scroll" scroll-y>
+    <view class="type-container">
+      <view class="type-box" wx:for-items="{{categories}}" wx:key="{{item.id}}">
+        <view id="{{item.id}}" class="type-navbar-item {{activeCategoryId==item.id?'type-item-on':''}}" bindtap="tabClick">
+          {{item.catName}}
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+  <scroll-view class="goods-scroll" scroll-y>
+    <view class="goods-container">
+      <view class="goods-box" wx:for="{{goods}}" wx:key="{{item.id}}" data-id="{{item.id}}" bindtap="tabDetails">
+        <view class="image-box">
+          <!-- 暂时还没有imgs， item.imgs是数组，可以取第一张为封面, item.imgs[0] -->
+          <image src="{{item.imgs[0]}}" wx:if="{{item.imgs.length > 0}}"></image>
+          <image src="../../images/zwPic.jpg" wx:else></image>
+        </view>
+        <view class="goods-title">{{item.cmName}}</view>
+        <view class="goods-price">￥{{item.price}}</view>
+      </view>
+    </view>
+  </scroll-view>
+</view>
+

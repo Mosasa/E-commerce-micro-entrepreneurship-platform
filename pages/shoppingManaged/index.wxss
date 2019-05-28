@@ -1,0 +1,17 @@
+/* pages/shoppingManaged/shoppingManaged.wxss */
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container .shopping-list {
+	width: 100%;
+}
+.container .shopping-list .down-shift {
+	width: 154rpx;
+	height: 100%;
+	line-height: 160rpx;
+	text-align: center;
+	background: red;
+	color: #ffffff;
+}

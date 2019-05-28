@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "sort-list": "../../components/list/list"
+  }
+}
