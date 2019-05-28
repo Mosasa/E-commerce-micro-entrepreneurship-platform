@@ -1,0 +1,71 @@
+/* components/list/list.wxss */
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+  }
+  .container .clerk-list {
+		width: 97%;
+		height: 160rpx;
+		margin-left: 1.5%;
+		display: flex;
+		justify-content: left;
+		border-bottom: 0.5rpx solid #e6e6e6;
+  }
+  .container .clerk-list .clerk-image {
+		width: 24%;
+		height: 100%;
+  }
+  .container .clerk-list .list-icon {
+		width: 16%;
+    height: 100%;
+	}
+	.container .clerk-list .list-icon .icon-img {
+		width: 50rpx;
+		height: 50rpx;
+		line-height: 50rpx;
+		margin-top: 50%;
+		margin-left: 20rpx;
+	}
+  .container .clerk-list .clerk-image .clerk-img {
+		width: 130rpx;
+		height: 130rpx;
+		margin-top: 14rpx;
+		border: 0.5rpx solid #bfbfbf;
+  }
+  .container .clerk-list .clerk-nn {
+		width: 80%;
+		height: 130rpx;
+		margin-top: 14rpx;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
+		position: relative;
+  }
+  .container .clerk-list .clerk-nn .clerk-number {
+		font-size: 30rpx;
+		color: #bfbfbf;
+		height: 60rpx;
+	}
+	.container .clerk-list .clerk-nn .clerk-name {
+		font-size: 40rpx;
+	}
+	.container .clerk-list .clerk-nn .clerk-num {
+		font-size: 32rpx;
+		color: #ff8f59;
+	}
+	.container .clerk-list .clerk-nn .clerk-income {
+		position: absolute;
+		top: 30%;
+		right: 100rpx;
+		color: #00bb00;
+	}
+  .container .clerk-list .more {
+		width: 80rpx;
+		height: 80rpx;
+		margin-top: 40rpx;
+	}
+	.container .clerk-list .more .more-icon {
+		width: 100%;
+		height: 100%;
+	}

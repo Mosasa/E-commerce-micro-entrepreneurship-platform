@@ -1,0 +1,47 @@
+/* components/mask/mask.wxss */
+.container {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+.container .mask-wrap{
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 101;
+}
+.container .mask-wrap .cover{
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #000;
+	opacity: 0.6;
+}
+.container .mask-wrap .img{
+	width: 70%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate3d(-50%, -50%, 0);
+}
+.container .mask-wrap .img img{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 0.5rem;
+}
+.container .mask-wrap .img .txt {
+	width: 100%;
+	text-align: center;
+	font-size: 18px;
+	font-weight: bold;
+	position: absolute;
+	color: #fff;
+}
+.container .mask-wrap .img.hastxt{
+	top: 40%;
+}

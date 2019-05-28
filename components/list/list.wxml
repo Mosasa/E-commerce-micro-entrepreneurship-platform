@@ -1,0 +1,26 @@
+<!--components/list/list.wxml-->
+<view class="container">
+	<view class="clerk-list" wx:for="{{list}}" bindtap="toListDetail" data-id="{{item.id}}">
+		<!-- 列表头图片 -->
+		<view class="clerk-image"  wx:if="{{hasHeadImg}}">
+			<image class="clerk-img" wx:if="{{item.img}}" src="{{item.img}}"></image>
+			<image class="clerk-img" wx:else src="../../images/zwPic.jpg"></image>
+		</view>
+		<view class="list-icon" wx:if="{{hasHeadIcon}}">
+			<image class="icon-img" src="{{item.icon}}"></image>
+		</view>
+		<!-- 列表内容 -->
+		<view class="clerk-nn">
+			<text class="clerk-name">{{item.name}}</text>
+			<text class="clerk-num" wx:if="{{hasNum}}">{{item.num}}</text>
+			<text class="clerk-number" wx:if="{{hasNumber}}">{{item.number}}</text>
+			<text class="clerk-price" wx:if="{{hasPrice}}" style="color: {{priceColor}}">￥{{item.price}}</text>
+			<text class="clerk-income" wx:if="{{hasIncome}}" >{{item.totalIncome}}</text>
+		</view>
+		
+		<!-- more -->
+		<view class="more"  wx:if="{{hasMore}}">
+			<image class="more-icon" src="{{item.moreIcon}}"></image>
+		</view>
+	</view>
+</view>

@@ -1,0 +1,10 @@
+<!--components/mask/mask.wxml-->
+<view class="container">
+  <view class="mask-wrap" style="display: {{coverDisplay}}">
+    <view class="cover" bindtap="close" style="{{coverStyle}}"></view>
+    <view class="img" class="'hastxt': {{txt}}">
+      <image src="{{imgUrl}}" alt="" />
+      <view class="txt" style="color: {{fontColor}}">{{txt}}</view>
+    </view>
+  </view>
+</view>
