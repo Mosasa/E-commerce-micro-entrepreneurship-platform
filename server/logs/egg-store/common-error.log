@@ -1,0 +1,88 @@
+2019-05-25 10:00:01,595 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 896618ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 12:07:55,828 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 1450930ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 12:28:12,657 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 1216708ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 12:49:07,662 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 1232991ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 13:16:48,816 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 708786ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 16:31:14,848 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 11625228ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 18:19:36,163 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 6501290ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 20:07:39,828 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 6483643ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 21:56:22,972 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 6523124ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 23:44:12,405 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 6469408ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-28 16:41:57,269 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 233864793ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+

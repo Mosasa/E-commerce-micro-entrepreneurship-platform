@@ -1,0 +1,16 @@
+2019-05-25 09:20:33,316 INFO 29220 [egg-logrotator] app logger reload: got log-reload message
+2019-05-25 10:00:01,593 WARN 29220 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-25 12:07:55,826 WARN 29220 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-25 12:07:55,829 WARN 29220 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-25 12:28:12,648 WARN 29220 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-25 12:28:12,648 WARN 29220 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-25 12:49:07,662 WARN 29220 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-25 13:16:48,816 WARN 29220 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-25 16:31:14,676 WARN 29220 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-25 16:31:14,693 WARN 29220 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-25 18:19:36,159 WARN 29220 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-25 20:07:39,828 WARN 29220 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-25 21:56:22,972 WARN 29220 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-25 23:44:12,406 WARN 29220 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-28 16:41:58,167 WARN 29220 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-28 16:41:59,224 WARN 29220 [ClusterClient:Watcher] follower closed, and try to init it again

@@ -1,0 +1,6 @@
+2019-05-11 16:26:05,928 INFO 87793 [Job#15575631659196193982330569853] /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2019-05-11 16:26:05,944 INFO 87793 [Job#15575631659196193982330569853] /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 15ms
+2019-05-11 16:26:05,928 INFO 87785 [Timer] /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 27234080ms at 2019-05-12 00:00:00.008
+2019-05-11 16:26:06,929 INFO 87793 [Job#15575631669256193992393443643] /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2019-05-11 16:26:06,933 INFO 87793 [Job#15575631669256193992393443643] /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 4ms
+2019-05-11 16:26:06,937 INFO 87785 [Timer] /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 27234074ms at 2019-05-12 00:00:01.011

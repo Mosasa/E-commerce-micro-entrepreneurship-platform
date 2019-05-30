@@ -1,0 +1,14 @@
+2019-05-10 22:32:07,429 INFO 87793 [egg-logrotator] app logger reload: got log-reload message
+2019-05-10 23:10:06,164 WARN 87793 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-11 00:11:03,404 WARN 87793 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-11 03:46:24,564 WARN 87793 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-11 03:46:24,574 WARN 87793 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-11 05:34:45,086 WARN 87793 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-11 07:22:51,423 WARN 87793 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-11 09:11:12,560 WARN 87793 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-11 10:59:33,285 WARN 87793 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-11 15:27:52,918 WARN 87793 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-11 16:26:05,941 INFO 87793 [egg-logrotator] start remove /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store files: common-error.log.2019-04-09, egg-agent.log.2019-04-09, egg-schedule.log.2019-04-09, egg-store-web.log.2019-04-09, egg-web.log.2019-04-09
+2019-05-11 16:26:05,944 INFO 87793 [egg-logrotator] clean all log before 31 days
+2019-05-11 16:26:06,933 INFO 87793 [egg-logrotator] broadcast log-reload
+2019-05-11 16:26:06,933 INFO 87793 [egg-logrotator] rotate files success by DayRotator, files ["/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/common-error.log -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/common-error.log.2019-05-10","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-store-web.log -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-store-web.log.2019-05-10","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-web.log -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-web.log.2019-05-10","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-schedule.log -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-schedule.log.2019-05-10","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-agent.log -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-agent.log.2019-05-10"]

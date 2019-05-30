@@ -1,0 +1,476 @@
+2019-05-22 00:00:01,078 INFO 14369 [egg-logrotator] agent logger reload: got log-reload message
+2019-05-22 03:50:32,590 ERROR 14369 nodejs.ClusterClientNoResponseError: client no response in 6499674ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 14369
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-22 05:38:50,813 ERROR 14369 nodejs.ClusterClientNoResponseError: client no response in 6498189ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 14369
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-22 07:27:12,122 ERROR 14369 nodejs.ClusterClientNoResponseError: client no response in 6501114ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 14369
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-22 08:23:53,602 ERROR 14369 nodejs.ClusterClientNoResponseError: client no response in 3401436ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 14369
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-22 10:12:21,823 ERROR 14369 nodejs.ClusterClientNoResponseError: client no response in 6488201ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 14369
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-22 12:00:24,982 ERROR 14369 nodejs.ClusterClientNoResponseError: client no response in 6483137ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 14369
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-22 13:48:01,872 ERROR 14369 nodejs.ClusterClientNoResponseError: client no response in 6456876ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 14369
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-22 14:27:05,294 ERROR 14369 nodejs.ClusterClientNoResponseError: client no response in 2343401ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 14369
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 00:30:49,969 ERROR 14369 nodejs.ClusterClientNoResponseError: client no response in 36204581ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 14369
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 00:31:27,139 INFO 19880 [egg:logger] init all loggers with options: {"dir":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-store-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-05-23 00:31:27,293 INFO 19880 [egg:core] dump config after load, 4ms
+2019-05-23 00:31:27,340 INFO 19880 [egg-watcher] Start watching: ["/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks_proxy","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app.js"]
+2019-05-23 00:31:27,341 INFO 19880 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app"
+2019-05-23 00:31:27,341 INFO 19880 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config"
+2019-05-23 00:31:27,341 INFO 19880 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks"
+2019-05-23 00:31:27,341 INFO 19880 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks_proxy"
+2019-05-23 00:31:27,341 INFO 19880 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app.js"
+2019-05-23 00:31:27,341 INFO 19880 [egg-watcher:agent] watcher start success
+2019-05-23 00:31:27,355 INFO 19880 [egg:core] dump config after ready, 4ms
+2019-05-23 02:22:07,353 ERROR 19880 nodejs.ClusterClientNoResponseError: client no response in 5978041ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 19880
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 04:10:27,676 ERROR 19880 nodejs.ClusterClientNoResponseError: client no response in 6500306ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 19880
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 05:58:50,804 ERROR 19880 nodejs.ClusterClientNoResponseError: client no response in 6503110ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 19880
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 07:46:25,775 ERROR 19880 nodejs.ClusterClientNoResponseError: client no response in 6454951ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 19880
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 11:23:39,772 ERROR 19880 nodejs.ClusterClientNoResponseError: client no response in 13033412ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 19880
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 12:43:32,083 ERROR 19880 nodejs.ClusterClientNoResponseError: client no response in 4792225ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 19880
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 12:57:08,823 ERROR 19880 nodejs.ClusterClientNoResponseError: client no response in 815591ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 19880
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 13:05:15,539 INFO 20963 [egg:logger] init all loggers with options: {"dir":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-store-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-05-23 13:05:15,806 INFO 20963 [egg:core] dump config after load, 4ms
+2019-05-23 13:05:15,865 INFO 20963 [egg-watcher] Start watching: ["/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks_proxy","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app.js"]
+2019-05-23 13:05:15,865 INFO 20963 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app"
+2019-05-23 13:05:15,865 INFO 20963 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config"
+2019-05-23 13:05:15,866 INFO 20963 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks"
+2019-05-23 13:05:15,866 INFO 20963 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks_proxy"
+2019-05-23 13:05:15,866 INFO 20963 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app.js"
+2019-05-23 13:05:15,866 INFO 20963 [egg-watcher:agent] watcher start success
+2019-05-23 13:05:15,887 INFO 20963 [egg:core] dump config after ready, 10ms
+2019-05-23 13:29:28,161 INFO 20963 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public/imgs/wx9318960ce24cdd14.o6zAJs2H6n4XsdJLOWhM5JzSoPXo.Wd5n72kmGbDd97063e53d9dabc895dfa6394facc9fe9.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":16237180,"size":26638,"blocks":56,"atimeMs":1558589368093.323,"mtimeMs":1558589368095.4336,"ctimeMs":1558589368095.4336,"birthtimeMs":1558589368093.323,"atime":"2019-05-23T05:29:28.093Z","mtime":"2019-05-23T05:29:28.095Z","ctime":"2019-05-23T05:29:28.095Z","birthtime":"2019-05-23T05:29:28.093Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-05-23 13:47:36,841 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 854964ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 13:50:21,832 INFO 20963 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public/imgs/wx9318960ce24cdd14.o6zAJs2H6n4XsdJLOWhM5JzSoPXo.cSwzn0J9a4GAf930129f08e20e6b231301c11dfe3008.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":16239826,"size":44550,"blocks":88,"atimeMs":1558590621771.048,"mtimeMs":1558590621771.3813,"ctimeMs":1558590621771.3813,"birthtimeMs":1558590621771.048,"atime":"2019-05-23T05:50:21.771Z","mtime":"2019-05-23T05:50:21.771Z","ctime":"2019-05-23T05:50:21.771Z","birthtime":"2019-05-23T05:50:21.771Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-05-23 13:52:41,239 INFO 20963 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public/imgs/wx9318960ce24cdd14.o6zAJs2H6n4XsdJLOWhM5JzSoPXo.XOGk23mvAMmg52dab0f7e7bdd8a9a0a53392efec2b1a.jpeg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":16240534,"size":19355,"blocks":40,"atimeMs":1558590761152.055,"mtimeMs":1558590761152.602,"ctimeMs":1558590761152.602,"birthtimeMs":1558590761152.055,"atime":"2019-05-23T05:52:41.152Z","mtime":"2019-05-23T05:52:41.153Z","ctime":"2019-05-23T05:52:41.153Z","birthtime":"2019-05-23T05:52:41.152Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-05-23 14:20:18,101 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 1636040ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 16:09:46,357 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 6088197ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 18:21:57,146 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 7910456ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 19:21:20,183 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 3577478ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 21:10:12,100 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 6446877ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 22:22:57,648 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 4365543ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-23 22:26:13,987 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 196324ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 00:44:04,105 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 6685694ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 02:05:39,678 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 4895544ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 03:53:44,892 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 6485173ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 05:42:08,154 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 6503229ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 07:30:30,647 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 6502451ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 10:34:09,097 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 11017837ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 10:54:01,124 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 1171111ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 12:44:14,728 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 6593541ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 13:52:37,238 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 4102378ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 14:00:24,459 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 447166ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 15:11:47,357 ERROR 20963 nodejs.ClusterClientNoResponseError: client no response in 4292023ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 20963
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 15:23:53,134 INFO 26837 [egg:logger] init all loggers with options: {"dir":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-store-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-05-24 15:23:53,301 INFO 26837 [egg:core] dump config after load, 4ms
+2019-05-24 15:23:53,350 INFO 26837 [egg-watcher] Start watching: ["/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks_proxy","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app.js"]
+2019-05-24 15:23:53,350 INFO 26837 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app"
+2019-05-24 15:23:53,350 INFO 26837 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config"
+2019-05-24 15:23:53,350 INFO 26837 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks"
+2019-05-24 15:23:53,351 INFO 26837 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks_proxy"
+2019-05-24 15:23:53,351 INFO 26837 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app.js"
+2019-05-24 15:23:53,351 INFO 26837 [egg-watcher:agent] watcher start success
+2019-05-24 15:23:53,364 INFO 26837 [egg:core] dump config after ready, 5ms
+2019-05-24 15:43:06,662 ERROR 26837 nodejs.ClusterClientNoResponseError: client no response in 991745ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 26837
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 16:15:42,474 INFO 27464 [egg:logger] init all loggers with options: {"dir":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-store-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-05-24 16:15:42,624 INFO 27464 [egg:core] dump config after load, 4ms
+2019-05-24 16:15:42,672 INFO 27464 [egg-watcher] Start watching: ["/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks_proxy","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app.js"]
+2019-05-24 16:15:42,672 INFO 27464 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app"
+2019-05-24 16:15:42,672 INFO 27464 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config"
+2019-05-24 16:15:42,673 INFO 27464 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks"
+2019-05-24 16:15:42,673 INFO 27464 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks_proxy"
+2019-05-24 16:15:42,673 INFO 27464 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app.js"
+2019-05-24 16:15:42,673 INFO 27464 [egg-watcher:agent] watcher start success
+2019-05-24 16:15:42,692 INFO 27464 [egg:core] dump config after ready, 8ms
+2019-05-24 16:24:58,558 INFO 27464 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public/imgs/wx9318960ce24cdd14.o6zAJs2H6n4XsdJLOWhM5JzSoPXo.ss9PdN7kzu3A97063e53d9dabc895dfa6394facc9fe9.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":16259307,"size":26638,"blocks":56,"atimeMs":1558686298489.7957,"mtimeMs":1558686298490.5664,"ctimeMs":1558686298490.5664,"birthtimeMs":1558686298489.7957,"atime":"2019-05-24T08:24:58.490Z","mtime":"2019-05-24T08:24:58.491Z","ctime":"2019-05-24T08:24:58.491Z","birthtime":"2019-05-24T08:24:58.490Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-05-24 16:46:06,398 ERROR 27464 nodejs.ClusterClientNoResponseError: client no response in 998734ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 27464
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 16:59:23,818 ERROR 27464 nodejs.ClusterClientNoResponseError: client no response in 777388ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 27464
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 17:12:57,279 INFO 27464 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public/imgs/wx9318960ce24cdd14.o6zAJs2H6n4XsdJLOWhM5JzSoPXo.899G5qQ4ifJC7ab3a1660b0640212ad6e4c5a75b6cbc.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":16262605,"size":33247,"blocks":72,"atimeMs":1558689177204.8862,"mtimeMs":1558689177205.2307,"ctimeMs":1558689177205.2307,"birthtimeMs":1558689177204.8862,"atime":"2019-05-24T09:12:57.205Z","mtime":"2019-05-24T09:12:57.205Z","ctime":"2019-05-24T09:12:57.205Z","birthtime":"2019-05-24T09:12:57.205Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-05-24 17:22:41,934 INFO 29218 [egg:logger] init all loggers with options: {"dir":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-store-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"agent"}
+2019-05-24 17:22:42,096 INFO 29218 [egg:core] dump config after load, 5ms
+2019-05-24 17:22:42,144 INFO 29218 [egg-watcher] Start watching: ["/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks_proxy","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app.js"]
+2019-05-24 17:22:42,144 INFO 29218 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app"
+2019-05-24 17:22:42,144 INFO 29218 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config"
+2019-05-24 17:22:42,144 INFO 29218 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks"
+2019-05-24 17:22:42,144 INFO 29218 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/mocks_proxy"
+2019-05-24 17:22:42,144 INFO 29218 [egg-watcher] Start watching: "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app.js"
+2019-05-24 17:22:42,145 INFO 29218 [egg-watcher:agent] watcher start success
+2019-05-24 17:22:42,158 INFO 29218 [egg:core] dump config after ready, 5ms
+2019-05-24 18:33:47,816 INFO 29218 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public/imgs/wx9318960ce24cdd14.o6zAJs2H6n4XsdJLOWhM5JzSoPXo.gEgCPdzOP9lD97063e53d9dabc895dfa6394facc9fe9.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":16297017,"size":26638,"blocks":56,"atimeMs":1558694027751.3513,"mtimeMs":1558694027752.2256,"ctimeMs":1558694027752.2256,"birthtimeMs":1558694027751.3513,"atime":"2019-05-24T10:33:47.751Z","mtime":"2019-05-24T10:33:47.752Z","ctime":"2019-05-24T10:33:47.752Z","birthtime":"2019-05-24T10:33:47.751Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-05-24 18:40:46,657 INFO 29218 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public/imgs/wx9318960ce24cdd14.o6zAJs2H6n4XsdJLOWhM5JzSoPXo.wshSaODBPgYU7ab3a1660b0640212ad6e4c5a75b6cbc.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":16300672,"size":33247,"blocks":72,"atimeMs":1558694446546.4272,"mtimeMs":1558694446546.7002,"ctimeMs":1558694446546.7002,"birthtimeMs":1558694446546.4272,"atime":"2019-05-24T10:40:46.546Z","mtime":"2019-05-24T10:40:46.547Z","ctime":"2019-05-24T10:40:46.547Z","birthtime":"2019-05-24T10:40:46.546Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-05-24 18:42:53,672 INFO 29218 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public/imgs/wx9318960ce24cdd14.o6zAJs2H6n4XsdJLOWhM5JzSoPXo.WGtvrKVjc7G752dab0f7e7bdd8a9a0a53392efec2b1a.jpeg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":16301504,"size":19355,"blocks":40,"atimeMs":1558694573567.7444,"mtimeMs":1558694573567.9739,"ctimeMs":1558694573567.9739,"birthtimeMs":1558694573567.7444,"atime":"2019-05-24T10:42:53.568Z","mtime":"2019-05-24T10:42:53.568Z","ctime":"2019-05-24T10:42:53.568Z","birthtime":"2019-05-24T10:42:53.568Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-05-24 18:45:14,167 INFO 29218 [egg-watcher] Recieved a change event from eventSource: {"event":"rename","path":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public/imgs/wx9318960ce24cdd14.o6zAJs2H6n4XsdJLOWhM5JzSoPXo.pF2AhozGt0x49cd877ad828dae06d7f423a99c120781.jpg","stat":{"dev":16777220,"mode":33188,"nlink":1,"uid":501,"gid":20,"rdev":0,"blksize":4194304,"ino":16302360,"size":21361,"blocks":48,"atimeMs":1558694714105.9065,"mtimeMs":1558694714106.3079,"ctimeMs":1558694714106.3079,"birthtimeMs":1558694714105.9065,"atime":"2019-05-24T10:45:14.106Z","mtime":"2019-05-24T10:45:14.106Z","ctime":"2019-05-24T10:45:14.106Z","birthtime":"2019-05-24T10:45:14.106Z"},"remove":false,"isDirectory":false,"isFile":true}
+2019-05-24 20:19:39,070 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 372791ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 21:26:30,157 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 708524ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 21:49:22,903 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 1332733ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 22:35:05,439 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 2742532ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 23:03:31,963 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 106173ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-24 23:45:19,533 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 1244036ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 00:00:55,961 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 936423ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 00:05:06,692 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 250702ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 00:40:58,580 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 708683ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 00:56:21,337 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 919642ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 01:54:30,431 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 3489085ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 03:42:52,413 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 6501964ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 05:31:16,000 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 6503566ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+
+2019-05-25 07:47:40,169 ERROR 29218 nodejs.ClusterClientNoResponseError: client no response in 8184083ms exceeding maxIdleTime 60000ms, maybe the connection is close on other side.
+    at Timeout.Leader._heartbeatTimer.setInterval [as _onTimeout] (/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/cluster-client/lib/leader.js:77:23)
+    at listOnTimeout (timers.js:324:15)
+    at processTimers (timers.js:268:5)
+name: "ClusterClientNoResponseError"
+pid: 29218
+hostname: wiessdeMacBook-Pro.local
+

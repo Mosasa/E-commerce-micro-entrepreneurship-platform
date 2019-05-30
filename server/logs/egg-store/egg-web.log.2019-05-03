@@ -1,0 +1,134 @@
+2019-04-21 15:40:42,256 INFO 43059 [egg-logrotator] app logger reload: got log-reload message
+2019-04-21 21:54:29,365 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-21 23:07:03,268 WARN 43059 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-21 23:07:03,295 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-22 00:55:17,421 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-22 02:43:22,854 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-22 04:31:39,422 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-22 06:19:54,649 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-22 07:48:28,352 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-22 13:09:42,270 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-26 20:54:11,754 WARN 43059 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-26 20:54:11,759 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-27 02:09:22,092 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-27 09:46:31,562 WARN 43059 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-04-27 09:46:31,594 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-27 11:12:24,201 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-27 19:28:14,661 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-04-27 20:15:40,190 WARN 43059 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-01 19:28:50,083 INFO 47616 [egg:logger] init all loggers with options: {"dir":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-store-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-01 19:28:50,125 INFO 47616 [egg-multipart] stream mode enable
+2019-05-01 19:28:50,126 INFO 47616 [egg-mysql] connecting root@localhost:3306/store
+2019-05-01 19:28:50,294 INFO 47616 [egg-static] starting static serve /public/ -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public
+2019-05-01 19:28:50,298 INFO 47616 [egg-security] use methodnoallow middleware
+2019-05-01 19:28:50,299 INFO 47616 [egg-security] use noopen middleware
+2019-05-01 19:28:50,300 INFO 47616 [egg-security] use nosniff middleware
+2019-05-01 19:28:50,300 INFO 47616 [egg-security] use xssProtection middleware
+2019-05-01 19:28:50,301 INFO 47616 [egg-security] use xframe middleware
+2019-05-01 19:28:50,302 INFO 47616 [egg-security] use dta middleware
+2019-05-01 19:28:50,302 INFO 47616 [egg-security] compose 6 middlewares into one security middleware
+2019-05-01 19:28:50,324 INFO 47616 [egg:core] dump config after load, 6ms
+2019-05-01 19:28:50,367 INFO 47616 [egg-watcher:application] watcher start success
+2019-05-01 19:28:50,406 INFO 47616 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 01 2019 19:28:50 GMT+0800 (GMT+08:00)
+2019-05-01 19:28:50,413 INFO 47616 [egg:core] dump config after ready, 5ms
+2019-05-01 19:38:10,010 WARN 47616 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-01 19:59:38,495 INFO 49235 [egg:logger] init all loggers with options: {"dir":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-store-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-01 19:59:38,568 INFO 49235 [egg-multipart] stream mode enable
+2019-05-01 19:59:38,569 INFO 49235 [egg-mysql] connecting root@localhost:3306/store
+2019-05-01 19:59:39,302 INFO 49235 [egg-static] starting static serve /public/ -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public
+2019-05-01 19:59:39,314 INFO 49235 [egg-security] use methodnoallow middleware
+2019-05-01 19:59:39,317 INFO 49235 [egg-security] use noopen middleware
+2019-05-01 19:59:39,355 INFO 49235 [egg-security] use nosniff middleware
+2019-05-01 19:59:39,358 INFO 49235 [egg-security] use xssProtection middleware
+2019-05-01 19:59:39,360 INFO 49235 [egg-security] use xframe middleware
+2019-05-01 19:59:39,362 INFO 49235 [egg-security] use dta middleware
+2019-05-01 19:59:39,362 INFO 49235 [egg-security] compose 6 middlewares into one security middleware
+2019-05-01 19:59:39,465 INFO 49235 [egg:core] dump config after load, 20ms
+2019-05-01 19:59:39,535 INFO 49235 [egg-watcher:application] watcher start success
+2019-05-01 19:59:39,629 INFO 49235 [egg-mysql] instance[0] status OK, rds currentTime: Wed May 01 2019 19:59:39 GMT+0800 (GMT+08:00)
+2019-05-01 19:59:39,685 INFO 49235 [egg:core] dump config after ready, 45ms
+2019-05-01 21:42:50,679 WARN 49235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-01 23:01:49,783 WARN 49235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-02 00:50:10,395 WARN 49235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-02 02:38:13,906 WARN 49235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-02 04:26:31,886 WARN 49235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-02 06:15:01,701 WARN 49235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-02 08:03:15,018 WARN 49235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-02 20:27:27,069 WARN 49235 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-02 20:44:23,077 INFO 50243 [egg:logger] init all loggers with options: {"dir":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-store-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-02 20:44:23,123 INFO 50243 [egg-multipart] stream mode enable
+2019-05-02 20:44:23,123 INFO 50243 [egg-mysql] connecting root@localhost:3306/store
+2019-05-02 20:44:23,318 INFO 50243 [egg-static] starting static serve /public/ -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public
+2019-05-02 20:44:23,321 INFO 50243 [egg-security] use methodnoallow middleware
+2019-05-02 20:44:23,322 INFO 50243 [egg-security] use noopen middleware
+2019-05-02 20:44:23,324 INFO 50243 [egg-security] use nosniff middleware
+2019-05-02 20:44:23,326 INFO 50243 [egg-security] use xssProtection middleware
+2019-05-02 20:44:23,328 INFO 50243 [egg-security] use xframe middleware
+2019-05-02 20:44:23,329 INFO 50243 [egg-security] use dta middleware
+2019-05-02 20:44:23,330 INFO 50243 [egg-security] compose 6 middlewares into one security middleware
+2019-05-02 20:44:23,527 INFO 50243 [egg:core] dump config after load, 18ms
+2019-05-02 20:44:23,676 INFO 50243 [egg-watcher:application] watcher start success
+2019-05-02 20:44:23,711 INFO 50243 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 02 2019 20:44:23 GMT+0800 (GMT+08:00)
+2019-05-02 20:44:23,725 INFO 50243 [egg:core] dump config after ready, 11ms
+2019-05-02 20:45:09,060 INFO 50296 [egg:logger] init all loggers with options: {"dir":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-store-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-02 20:45:09,378 INFO 50296 [egg-multipart] stream mode enable
+2019-05-02 20:45:09,379 INFO 50296 [egg-mysql] connecting root@localhost:3306/store
+2019-05-02 20:45:14,853 INFO 50296 [egg-static] starting static serve /public/ -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public
+2019-05-02 20:45:14,861 INFO 50296 [egg-security] use methodnoallow middleware
+2019-05-02 20:45:14,863 INFO 50296 [egg-security] use noopen middleware
+2019-05-02 20:45:14,865 INFO 50296 [egg-security] use nosniff middleware
+2019-05-02 20:45:14,866 INFO 50296 [egg-security] use xssProtection middleware
+2019-05-02 20:45:14,867 INFO 50296 [egg-security] use xframe middleware
+2019-05-02 20:45:14,869 INFO 50296 [egg-security] use dta middleware
+2019-05-02 20:45:14,869 INFO 50296 [egg-security] compose 6 middlewares into one security middleware
+2019-05-02 20:45:14,973 INFO 50296 [egg:core] dump config after load, 10ms
+2019-05-02 20:45:15,024 INFO 50296 [egg-watcher:application] watcher start success
+2019-05-02 20:45:15,076 INFO 50296 [egg-mysql] instance[0] status OK, rds currentTime: Thu May 02 2019 20:45:15 GMT+0800 (GMT+08:00)
+2019-05-02 20:45:15,091 INFO 50296 [egg:core] dump config after ready, 12ms
+2019-05-02 22:36:38,986 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-02 23:32:39,690 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 00:30:36,103 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 01:07:27,464 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 01:41:06,993 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 02:36:10,519 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 03:34:52,102 WARN 50296 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-03 03:34:52,103 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 05:23:10,720 WARN 50296 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-03 05:23:10,721 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 07:11:20,240 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 08:35:17,945 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 10:23:37,028 WARN 50296 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-03 10:23:37,028 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 12:11:49,276 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 12:53:56,341 WARN 50296 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-03 12:53:56,341 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 14:04:28,005 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 17:42:27,181 WARN 50296 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-03 17:42:27,186 WARN 50296 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 18:06:06,710 INFO 56272 [egg:logger] init all loggers with options: {"dir":"/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store","encoding":"utf8","env":"local","level":"INFO","consoleLevel":"INFO","disableConsoleAfterReady":false,"outputJSON":false,"buffer":true,"appLogName":"egg-store-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-05-03 18:06:06,757 INFO 56272 [egg-multipart] stream mode enable
+2019-05-03 18:06:06,758 INFO 56272 [egg-mysql] connecting root@localhost:3306/store
+2019-05-03 18:06:12,628 INFO 56272 [egg-static] starting static serve /public/ -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/app/public
+2019-05-03 18:06:12,635 INFO 56272 [egg-security] use methodnoallow middleware
+2019-05-03 18:06:12,636 INFO 56272 [egg-security] use noopen middleware
+2019-05-03 18:06:12,640 INFO 56272 [egg-security] use nosniff middleware
+2019-05-03 18:06:12,642 INFO 56272 [egg-security] use xssProtection middleware
+2019-05-03 18:06:12,644 INFO 56272 [egg-security] use xframe middleware
+2019-05-03 18:06:12,645 INFO 56272 [egg-security] use dta middleware
+2019-05-03 18:06:12,645 INFO 56272 [egg-security] compose 6 middlewares into one security middleware
+2019-05-03 18:06:12,797 INFO 56272 [egg:core] dump config after load, 19ms
+2019-05-03 18:06:12,894 INFO 56272 [egg-watcher:application] watcher start success
+2019-05-03 18:06:13,045 INFO 56272 [egg-mysql] instance[0] status OK, rds currentTime: Fri May 03 2019 18:06:12 GMT+0800 (GMT+08:00)
+2019-05-03 18:06:13,056 INFO 56272 [egg:core] dump config after ready, 6ms
+2019-05-03 18:33:44,589 WARN 56272 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 18:45:53,171 WARN 56272 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 19:45:33,273 WARN 56272 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 21:58:02,935 WARN 56272 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-03 21:58:02,956 WARN 56272 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 22:16:04,622 WARN 56272 [TCPBase] socket is closed by other side while there were still unhandled data in the socket buffer
+2019-05-03 22:16:04,625 WARN 56272 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-03 23:54:21,853 WARN 56272 [ClusterClient:Watcher] follower closed, and try to init it again
+2019-05-04 00:06:31,054 INFO 56272 [egg-logrotator] start remove /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store files: common-error.log.2019-03-22, egg-agent.log.2019-03-22, egg-schedule.log.2019-03-22, egg-store-web.log.2019-03-22, egg-web.log.2019-03-22
+2019-05-04 00:06:31,064 INFO 56272 [egg-logrotator] clean all log before 31 days
+2019-05-04 00:06:31,981 INFO 56272 [egg-logrotator] broadcast log-reload
+2019-05-04 00:06:31,981 INFO 56272 [egg-logrotator] rotate files success by DayRotator, files ["/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/common-error.log -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/common-error.log.2019-05-03","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-store-web.log -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-store-web.log.2019-05-03","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-web.log -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-web.log.2019-05-03","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-schedule.log -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-schedule.log.2019-05-03","/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-agent.log -> /Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/logs/egg-store/egg-agent.log.2019-05-03"]
