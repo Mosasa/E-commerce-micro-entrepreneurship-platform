@@ -1,0 +1,314 @@
+{
+  "keys": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+  "cluster": {
+    "listen": {
+      "port": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+      "hostname": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+      "path": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "mysql": {
+    "client": {
+      "host": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+      "port": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+      "user": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+      "password": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+      "database": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts"
+    },
+    "app": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+    "agent": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+    "default": {
+      "database": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-mysql/config/config.default.js",
+      "connectionLimit": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-mysql/config/config.default.js"
+    }
+  },
+  "middleware": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+  "sourceUrl": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+  "security": {
+    "csrf": {
+      "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/config/config.default.ts",
+      "useSession": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "ignoreJSON": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "cookieName": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "sessionName": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "headerName": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "bodyName": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "queryName": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+    },
+    "domainWhiteList": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "session": {
+    "maxAge": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-static/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-view/config/config.default.js",
+    "cache": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-view/config/config.default.js",
+    "mapping": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg-view/config/config.default.js"
+  },
+  "env": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "name": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "proxy": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "version": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "description": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "private": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "egg": {
+      "typescript": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "require": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    },
+    "scripts": {
+      "start": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "stop": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "dev": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "debug": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "test": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "cov": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "tsc": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "ci": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "lint": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "clean": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    },
+    "dependencies": {
+      "@types/lodash": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "egg": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "egg-mysql": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "@types/mocha": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "@types/node": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "@types/supertest": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "autod": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "egg-bin": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "egg-ts-helper": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "tslib": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "tslint": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "tslint-config-egg": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "typescript": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    },
+    "repository": {
+      "type": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "url": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    },
+    "eslintIgnore": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "author": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "license": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+  },
+  "baseDir": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+  },
+  "bodyParser": {
+    "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "formLimit": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "jsonLimit": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "strict": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "depth": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "logger": {
+    "dir": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "env": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "level": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "consoleLevel": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "outputJSON": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "logging": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+  "clusterClient": {
+    "maxWaitTime": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/wiess/Documents/workspace/Micro-entrepreneurship-platform/server/node_modules/egg/config/config.default.js"
+}

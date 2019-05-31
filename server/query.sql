@@ -1,0 +1,1 @@
+select * from wxUserInfo where wxUserInfo.openid in (select comOrder.creatorId from orders, commodities_to_orders as comOrder where orders.uploadId='123456' and comOrder.id=orders.linkId)
