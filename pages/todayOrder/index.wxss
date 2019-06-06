@@ -1,4 +1,4 @@
-/* pages/todayOrder/todayOrder.wxss */
+/* pages/todayOrder/index.wxss */
 .container {
 	width: 100%;
 	margin: 0;

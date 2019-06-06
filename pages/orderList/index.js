@@ -1,4 +1,4 @@
-// pages/orderList/orderList.js
+// pages/orderList/index.js
 const app = getApp();
 const statusArr = {
   '-1': '待发货',
@@ -87,7 +87,33 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    
+    wx.request({
+      url: `${app.globalData.host}/storeOrder`,
+      method: 'GET',
+      data: {
+        uploadId: app.globalData.openid,
+      },
+      success: res => {
+        res = res.data;
+        if (res.errCode === 0) {
+          this.setData({
+            orderList: res.data.map(d => ({
+              id: d.id,
+              linkId: d.linkId,
+              sellNum: d.sellNum,
+              tradeName: this.formatTradeName(d.cmName),
+              customerName: this.formatCustomerName(d.nickName),
+              total: d.total,
+              orderTime: new Date(d.createDate).toLocaleDateString(),
+              orderStatus: d.status,
+              statusText: statusArr[d.status],
+              statusColor: colorArr[d.status],
+              remark: d.remark
+            }))
+          })
+        }
+      }
+    })
   },
   formatOrderTime (d) {
     return d;

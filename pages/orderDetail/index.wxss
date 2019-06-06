@@ -1,4 +1,4 @@
-/* pages/orderDetail/orderDetail.wxss */
+/* pages/orderDetail/index.wxss */
 .container {
 	width: 100%;
 	margin: 0;

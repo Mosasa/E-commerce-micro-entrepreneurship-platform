@@ -1,29 +1,29 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/user/user",
-    "pages/storePage/storePage",
-    "pages/myPage/myPage",
+    "pages/user/index",
+    "pages/storePage/index",
+    "pages/myPage/index",
     "pages/classify/index",
-    "pages/storeMessage/storeMessage",
+    "pages/storeMessage/index",
     "pages/myPage/order-list/index",
     "pages/myPage/select-address/index",
     "pages/myPage/address-add/index",
     "pages/myPage/user-info/tel-bind/tel-bind",
     "pages/myPage/user-info/username-edit/username-edit",
-    "pages/todayOrder/todayOrder",
-    "pages/clerkList/clerkList",
-    "pages/messCenter/messCenter",
+    "pages/todayOrder/index",
+    "pages/clerkList/index",
+    "pages/messCenter/index",
     "pages/sendMess/sendMess",
-    "pages/customerList/customerList",
-    "pages/orderList/orderList",
-    "pages/orderDetail/orderDetail",
-    "pages/addStore/addStore",
+    "pages/customerList/index",
+    "pages/orderList/index",
+    "pages/orderDetail/index",
+    "pages/addStore/index",
     "pages/shop-cart/index",
     "pages/goods-details/index",
     "pages/to-pay-order/index",
-    "pages/storeDetail/storeDetail",
-    "pages/shoppingManaged/shoppingManaged"
+    "pages/storeDetail/index",
+    "pages/shoppingManaged/index"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -46,7 +46,7 @@
         "text": "首页"
       },
       {
-        "pagePath": "pages/user/user",
+        "pagePath": "pages/user/index",
         "iconPath": "images/nav/mine.png",
         "selectedIconPath": "images/nav/mine1.png",
         "text": "我的"

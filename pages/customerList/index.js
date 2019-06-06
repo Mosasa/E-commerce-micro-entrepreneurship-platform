@@ -1,4 +1,4 @@
-// pages/customerList/customerList.js
+// pages/customerList/index.js
 const app = getApp();
 Page({
 
@@ -53,6 +53,23 @@ Page({
       animation: {
         duration: 400,
         timingFunc: 'easeIn'
+      }
+    })
+
+    wx.request({
+      url: `${app.globalData.host}/store/getCustomers/${app.globalData.openid}`,
+      success: res => {
+        res = res.data;
+
+        if (res.errCode === 0) {
+          this.setData({
+            customerList: res.data.map(d => ({
+              name: d.nickName,
+              number: `电话：${d.mobile}`,
+              img: d.avatarUrl || '../../images/user.png',
+            }))
+          })
+        }
       }
     })
   },

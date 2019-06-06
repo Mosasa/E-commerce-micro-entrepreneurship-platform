@@ -1,4 +1,4 @@
-// pages/shoppingManaged/shoppingManaged.js
+// pages/shoppingManaged/index.js
 const app = getApp();
 Page({
 
@@ -37,6 +37,31 @@ Page({
 
     let _this = this;
     let storeId = options.storeId;
+    wx.request({
+      url: `${app.globalData.host}/storeCommodity?storeId=${storeId}`,
+      method: 'GET', 
+      success: function(res){
+        let data = res.data.data;
+        _this.setData({
+          storeList: data.map(item => {
+            return {
+              id: item.id,
+              img: item.imgs[0],
+              name: item.cmName,
+              number: '库存：' + (item.total - item.sellNum),
+              price: item.price,
+              moreIcon: '../../images/more.png',
+              createDate: item.createDate
+            }
+          }).sort((pre, next) => {
+            return new Date(next.createDate).getTime() - new Date(pre.createDate).getTime()
+          })
+        })
+      },
+      fail: function() {
+        // fail
+      },
+    })
   },
 
   /**

@@ -101,6 +101,92 @@ Page({
     }
     return id
   },
+
+  createOrder(e){
+    const { curAddressData, remark, goodsList, goodKeys } = this.data;
+    const commonParam = {
+      address: curAddressData.address,
+      username: curAddressData.recipient,
+      mobile: curAddressData.mobile,
+      creatorId: app.globalData.openid,
+    }
+
+    const params = goodKeys.map(key => {
+      return {
+        ...commonParam,
+        storeId: key,
+        remark: remark[key],
+        commodities: goodsList[key].map(commodity => ({
+          commodityId: commodity.goodsId,
+          sellNum: commodity.number,
+          total: commodity.number * commodity.price
+        }))
+      }
+    })
+
+    wx.request({
+      url: `${app.globalData.host}/order`,
+      method: 'POST',
+      data: params,
+      success: res => {
+        res = res.data;
+        
+        if (res.errCode === 0) {
+          wx.showToast({
+            title: '下单成功',
+          });
+
+          // 清空已购买的商品
+          setTimeout(() => {
+            if (!this.data.notCart) {
+              const { shoplist } = wx.getStorageSync('shopCarInfo');
+              let shopNum = 0
+              goodKeys.map(key => {
+                shoplist[key] = shoplist[key].filter(commodity => {
+                  if (!commodity.active) shopNum += commodity.number;
+                  return !commodity.active
+                });
+              })
+        
+              wx.setStorage({
+                key: 'shopCarInfo',
+                data: {
+                  shoplist,
+                  shopNum,
+                }
+              })
+            }
+      
+            wx.navigateBack({
+              delta: 1
+            })
+          }, 1500);
+        }
+      }
+    })
+  },
+
+  initShippingAddress() {
+    // 获取默认地址
+    wx.request({
+      url: `${app.globalData.host}/address`,
+      method: 'GET',
+      data: {
+        creatorId: app.globalData.openid,
+        isDefault: true,
+      },
+      success: res => {
+        res = res.data;
+        if (res.errCode === 0) {
+          this.setData({
+            curAddressData: res.data.length > 0 ? res.data[0] : null
+          })
+        } else {
+          // 提示错误
+        }
+      }
+    })
+  },
   addAddress(){
     wx.navigateTo({
       url: '/pages/myPage/address-add/index',

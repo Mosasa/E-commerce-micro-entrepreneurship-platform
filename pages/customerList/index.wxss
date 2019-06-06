@@ -1,4 +1,4 @@
-/* pages/customerList/customerList.wxss */
+/* pages/customerList/index.wxss */
 .container {
 	width: 100%;
 	margin: 0;

@@ -1,4 +1,4 @@
-<!--pages/addStore/addStore.wxml-->
+<!--pages/addStore/index.wxml-->
 <view class="container">
   <view wx-if="{{!commodityId}}" class="form-content">
 		<van-cell-group>

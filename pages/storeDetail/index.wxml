@@ -1,4 +1,4 @@
-<!--pages/storeDetail/storeDetail.wxml-->
+<!--pages/storeDetail/index.wxml-->
 <view class="container">
   <view class="detail-content">
 		<van-cell-group>

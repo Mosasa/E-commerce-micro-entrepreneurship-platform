@@ -1,4 +1,4 @@
-// pages/storeMessage/storeMessage.js
+// pages/storeMessage/index.js
 const app = getApp();
 Page({
 
@@ -67,6 +67,30 @@ Page({
       address: this.data.storeMess.storeAddress,
       status: this.data.storeStatus // -1 休息 1 营业
     }
+    wx.request({
+      url: `${app.globalData.host}/store/${app.globalData.userInfo.bedroomId}`,
+      data: editStoreMessage,
+      method: 'PUT',
+      success: function(res){
+        wx.showToast({
+          title: '修改成功！',
+          icon: 'success',
+          duration: 1000,
+        });
+        setTimeout(() => {
+          wx.navigateBack({
+            delta: 1,
+          })
+        }, 1000)
+      },
+      fail: function() {
+        wx.showToast({
+          title: '修改失败！',
+          icon: 'fail',
+          duration: 2000
+        })
+      }
+    })
   },
   /**
    * 生命周期函数--监听页面显示

@@ -1,4 +1,4 @@
-<!--pages/messCenter/messCenter.wxml-->
+<!--pages/messCenter/index.wxml-->
 <view class="container">
 	<view class="mess-center">
 		<sort-list list="{{messList}}" hasHeadIcon="{{true}}" hasMore="{{true}}" bind:toDetail="toDetail"></sort-list>

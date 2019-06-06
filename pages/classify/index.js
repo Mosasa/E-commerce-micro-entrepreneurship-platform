@@ -26,6 +26,38 @@ Page({
   getGoodsList: function (categoryId) {
     if (categoryId == 0) {
       categoryId = ''
+      wx.request({
+        url: `${app.globalData.host}/commodity/`,
+        method: 'GET',
+        success: res => {
+          res = res.data;
+          if (res.errCode === 0) {
+            this.setData({
+              goods: res.data
+            })
+          } else {
+            Toast(res.errMsg)
+          }
+        }
+      })
+    } else {
+      wx.request({
+        url: `${app.globalData.host}/commodity/`,
+        method: 'GET',
+        data: {
+          categoryId,
+        },
+        success: res => {
+          res = res.data;
+          if (res.errCode === 0) {
+            this.setData({
+              goods: res.data
+            })
+          } else {
+            Toast(res.errMsg)
+          }
+        }
+      })
     }
 
   },
@@ -47,6 +79,22 @@ Page({
       animation: {
         duration: 400,
         timingFunc: 'easeIn'
+      }
+    })
+
+    wx.request({
+      url: `${app.globalData.host}/category`,
+      method: 'GET',
+      success: res => {
+        res = res.data;
+        if (res.errCode === 0) {
+          this.setData({
+            categories: [{
+              id: 0,
+              catName: '全部'
+            }, ...res.data],
+          })
+        }
       }
     })
     this.getGoodsList(0)

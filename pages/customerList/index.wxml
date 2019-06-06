@@ -1,4 +1,4 @@
-<!--pages/customerList/customerList.wxml-->
+<!--pages/customerList/index.wxml-->
 <view class="container">
 	<view class="cus-list">
 		<sort-list list="{{customerList}}" hasHeadImg="{{true}}"></sort-list>

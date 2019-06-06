@@ -1,4 +1,4 @@
-<!--pages/shoppingManaged/shoppingManaged.wxml-->
+<!--pages/shoppingManaged/index.wxml-->
 <view class="container">
   <view class="shopping-list">
 		<van-swipe-cell id="swipe-cell" async-close bind:close="onClose">

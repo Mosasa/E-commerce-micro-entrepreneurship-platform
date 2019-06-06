@@ -1,4 +1,4 @@
-// pages/orderDetail/orderDetail.js
+// pages/orderDetail/index.js
 const app = getApp();
 const btnInfo = {
   '-1': '发货',
@@ -110,6 +110,35 @@ Page({
       orderId: options.id,
       openid: app.globalData.openid,
     })
+
+    wx.request({
+      url: `${app.globalData.host}/order/${options.id}`,
+      method: 'GET',
+      success: res => {
+        res = res.data;
+        if (res.errCode === 0) {
+
+          this.setData({
+            userMess: {
+              userName: res.data.username,
+              userAddress: res.data.address,
+              userMobile: res.data.mobile,
+              remark: res.data.remark,
+            },
+            conList: res.data.orders.map(d => ({
+              conName: d.cmName,
+              conNum: d.sellNum,
+              conPrice: d.total,
+              status: d.status,
+              id: d.id,
+              creatorId: d.creatorId,
+              statusBtn: btnInfo[d.status],
+            })),
+            totalPrice: res.data.orders.reduce((total, current) => total + current.total, 0),
+          })
+        }
+      }
+    })
   },
 
   /**
@@ -139,6 +168,25 @@ Page({
       case -1: status = 0; break;
       case 0: status = 1; break;
     }
+
+    wx.request({
+      url: `${app.globalData.host}/order/${item.id}`,
+      method: 'PUT',
+      data: {
+        status,
+      },
+      success: res => {
+        res = res.data;
+        if (res.errCode === 0) {
+          const newList = Array.from(this.data.conList);
+          newList[index].status = status;
+          newList[index].statusBtn = btnInfo[status];
+          this.setData({
+            conList: newList
+          })
+        }
+      }
+    })
   }
 
 })

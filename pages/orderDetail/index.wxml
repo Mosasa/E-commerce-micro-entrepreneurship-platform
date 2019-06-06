@@ -1,4 +1,4 @@
-<!--pages/orderDetail/orderDetail.wxml-->
+<!--pages/orderDetail/index.wxml-->
 <view class="container">
 	<!-- <view class="step-managed" wx:if="{{hasStepList}}">
 		<view class="step-list">

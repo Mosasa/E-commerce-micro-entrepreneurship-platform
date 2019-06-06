@@ -1,4 +1,4 @@
-<!--pages/todayOrder/todayOrder.wxml-->
+<!--pages/todayOrder/index.wxml-->
 <view class="container">
   <view class="header-tab">
 		<view class="select-date">

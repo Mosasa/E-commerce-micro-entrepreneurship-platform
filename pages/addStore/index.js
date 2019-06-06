@@ -1,4 +1,4 @@
-// pages/addStore/addStore.js
+// pages/addStore/index.js
 import Toast from '../../static/vant/toast/toast';
 const app = getApp();
 Page({
@@ -127,6 +127,29 @@ Page({
     }
     setTimeout(this.onCloseWarn, 1000);
     classMess.categoryId = this.data.category.filter(cat => cat.catName === classMess.categoryId)[0].id;
+
+    // 添加商品
+    wx.request({
+      url: `${app.globalData.host}/commodity/`,
+      method: 'POST',
+      data: {
+        ...classMess,
+        bedroomId: app.globalData.userInfo.bedroomId,
+        openid: app.globalData.openid,
+      },
+      success: res => {
+        res = res.data;
+        if (res.errCode === 0) {
+          // 添加成功商品后去上传图片
+
+          this.setData({
+            commodityId: res.data
+          })
+        } else {
+          Toast(res.errMsg)
+        }
+      }
+    })
     // let _this = this;
     // setTimeout(() => {
     //   _this.setData({
@@ -147,6 +170,23 @@ Page({
       animation: {
         duration: 400,
         timingFunc: 'easeIn'
+      }
+    })
+
+    // 获取分类
+    wx.request({
+      url: `${app.globalData.host}/category/`,
+      method: 'GET',
+      success: res => {
+        res = res.data;
+        if (res.errCode === 0) {
+          this.setData({
+            columns: res.data.map(d => d.catName),
+            category: res.data,
+          })
+        } else {
+            Toast(res.errMsg)
+        }
       }
     })
   },
@@ -197,6 +237,26 @@ Page({
   onShareAppMessage: function () {
 
   },
+
+  selectPic: function () {
+    const commodityId = this.data.commodityId;
+    wx.chooseImage({
+      success: (res) => {
+        const tempFilePaths = res.tempFilePaths
+        tempFilePaths.forEach(path => {
+          wx.uploadFile({
+            url: `${app.globalData.host}/commodity/upload`,
+            filePath: path,
+            name: 'file',
+            formData: {
+              commodityId,
+            }
+          })
+        });
+      }
+    })
+  },
+
   go: function () {
     wx.switchTab({
       url: '/index'

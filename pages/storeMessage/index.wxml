@@ -1,4 +1,4 @@
-<!--pages/storeMessage/storeMessage.wxml-->
+<!--pages/storeMessage/index.wxml-->
 <view class="container">
 	<view class="storeNameAddr">
 		<view class="store-name">

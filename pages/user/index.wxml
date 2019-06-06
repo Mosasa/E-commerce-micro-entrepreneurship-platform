@@ -1,4 +1,4 @@
-<!--pages/user/user.wxml-->
+<!--pages/user/index.wxml-->
 <view class="container" hover-class="none" hover-stop-propagation="false">
 	<view class="myInfo">
 		<view class="user-info" bindtap="toMyPage">

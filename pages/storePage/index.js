@@ -1,4 +1,4 @@
-// pages/storePage/storePage.js
+// pages/storePage/index.js
 const app = getApp();
 Page({
 
@@ -159,6 +159,29 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
+    wx.request({
+      url: `${app.globalData.host}/store/${app.globalData.userInfo.bedroomId}`,
+      method: 'GET',
+      success: res => {
+        res = res.data;
+        console.log(res);
+        if (res.errCode === 0) {
+          this.setData({
+            roomNumber: res.data.bedroomId,
+            storeTotal: {
+              incomeText: '宿舍店铺总营业额(元)',
+              TotalMoney: res.data.incomeTotal,
+              orderNum: res.data.orderTotal            
+            },
+            storeMessage: {
+              storeName: res.data.stName,
+              storeAddress: res.data.address,
+              storeStatus: res.data.status
+            }
+          })
+        }
+      }
+    })
 
     this.setData({
       perTotal: {

@@ -1,4 +1,4 @@
-// pages/user/user.js
+// pages/user/index.js
 import Toast from '../../static/vant/toast/toast';
 const app = getApp();
 Page({
@@ -87,8 +87,47 @@ Page({
         bedroomId: this.data.dormitoryNumber,
         mobile: this.data.mobile
       }
-     
-      // Toast.success('注册成功!');
+      wx.request({
+        url: `${app.globalData.host}/userInfo/${app.globalData.openid}`,
+        data,
+        method: 'PUT', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+        // header: {}, // 设置请求的 header
+        success: (res) => {
+          res = res.data;
+          if (res.errCode === 0) {
+            this.setData({
+              show: false,
+            })
+            app.globalData.userInfo = {
+              ...app.globalData.userInfo,
+              ...data,
+            }
+            wx.request({
+              url: `${app.globalData.host}/store`,
+              data: {
+                bedroomId: data.bedroomId,
+                stName: data.bedroomId,
+              },
+              method: 'POST', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+              // header: {}, // 设置请求的 header
+              success: res => {
+                res = res.data;
+                if (res.errCode === 0) {
+                  Toast.success('注册成功!');
+                } else if (res.errCode === 1) {
+                  Toast.success('加入成功!');
+                }
+              }
+            })
+            // Toast.success('注册成功!');
+          } else {
+            this.setData({
+              show: false,
+            })
+            Toast.fail('注册失败!');
+          }
+        }
+      })
       // this.setData({
       //   show: false,
       // })
@@ -100,17 +139,7 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    wx.setNavigationBarTitle({
-      title: '我的'
-    })
-    wx.setNavigationBarColor({
-      frontColor: '#ffffff',
-      backgroundColor: '#000000',
-      animation: {
-        duration: 400,
-        timingFunc: 'easeIn'
-      }
-    })
+
   },
   /**
    * 生命周期函数--监听页面初次渲染完成
@@ -122,6 +151,21 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
+    wx.request({
+      url: `${app.globalData.host}/userInfo/${app.globalData.openid}`,
+      method: 'GET', // OPTIONS, GET, HEAD, POST, PUT, DELETE, TRACE, CONNECT
+      // header: {}, // 设置请求的 header
+      success: res => {
+        res = res.data;
+        if (res.errCode === 0) {
+          app.globalData.userInfo = res.data;
+        } else {
+          wx.showToast({
+            title: res.errMsg,
+          })
+        }
+      }
+    })
   },
 
   /**

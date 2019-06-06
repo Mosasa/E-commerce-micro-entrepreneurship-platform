@@ -1,4 +1,4 @@
-// pages/messCenter/messCenter.js
+// pages/messCenter/index.js
 Page({
 
   /**

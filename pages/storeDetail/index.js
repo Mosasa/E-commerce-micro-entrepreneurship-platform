@@ -1,4 +1,4 @@
-// pages/storeDetail/storeDetail.js
+// pages/storeDetail/index.js
 const app = getApp();
 Page({
 
@@ -17,6 +17,22 @@ Page({
   onChange: function ({detail}) {
     this.setData ({
       checked: detail
+    })
+
+    wx.request({
+      url: `${app.globalData.host}/commodity/${this.data.commodityId}`,
+      method: 'PUT',
+      data: {
+        bedroomId: app.globalData.userInfo.bedroomId,
+        openid: app.globalData.openid,
+        status: detail ? 1 : -1
+      },
+      success: res => {
+        res = res.data;
+        if (res.errCode !== 0) {
+          // 提示错误
+        }
+      }
     })
   },
   /**
@@ -37,6 +53,27 @@ Page({
 
     this.setData({
       commodityId: options.id,
+    })
+
+    wx.request({
+      url: `${app.globalData.host}/commodity/${options.id}`,
+      method: 'GET',
+      success: res => {
+        res = res.data;
+        if (res.errCode === 0) {
+          this.setData({
+            checked: res.data.status === 1 ,
+            className: res.data.cmName,
+            classifies: res.data.categoryId,
+            classNum: res.data.total - res.data.sellNum,
+            classPrice: res.data.price,
+            classDetail: res.data.detail,
+            readonly: res.data.creatorId !== app.globalData.openid,
+          })
+        } else {
+          // 提示错误
+        }
+      }
     })
   },
 

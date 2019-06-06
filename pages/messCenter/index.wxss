@@ -1,4 +1,4 @@
-/* pages/messCenter/messCenter.wxss */
+/* pages/messCenter/index.wxss */
 .container {
 	width: 100%;
 	margin: 0;

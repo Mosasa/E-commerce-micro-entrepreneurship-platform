@@ -37,7 +37,26 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    
+    wx.request({
+      url: `${app.globalData.host}/store/getMembers/${app.globalData.userInfo.bedroomId}`,
+      method: 'GET', 
+      success: res => {
+        res = res.data;
+        let list = res.data
+        this.setData({
+          clerkList: list.map(d => {
+            return {
+              img: d.avatarUrl,
+              name: d.nickName,
+              num: '订单数：' + d.orderNum,
+              number: '电话：' + d.mobile,
+              totalIncome: '总收入：' + d.income
+            }
+          })
+        })
+        console.log(list);
+      }
+    })
   },
 
   /**

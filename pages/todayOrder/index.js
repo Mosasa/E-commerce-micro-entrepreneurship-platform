@@ -1,4 +1,4 @@
-// pages/todayOrder/todayOrder.js
+// pages/todayOrder/index.js
 const app = getApp();
 Page({
 
@@ -142,6 +142,42 @@ Page({
     this.getOrders(date)
   },
 
+  getOrders: function(date) {
+    wx.request({
+      url: `${app.globalData.host}/storeOrder`,
+      method: 'GET',
+      data: {
+        uploadId: app.globalData.openid,
+        createDate: date,
+      },
+      success: res => {
+        res = res.data;
+        if (res.errCode === 0) {
+          const total = res.data.reduce((total, current) => total + current.total, 0);
+          this.setData({
+            dateMess: date,
+            dateIncomeList: res.data.map(d => ({
+              saledTime: this.getTime(d.createDate),
+              storingName: d.cmName,
+              storingNum: d.sellNum,
+              saledMoney: d.total
+            })),
+            incomeMess: total,
+            saledProfit: [
+              {
+                incomeText: '销售总额(元)',
+                profitMoney: total,
+              },
+              {
+                incomeText: '毛利润(元)',
+                profitMoney: total,
+              }
+            ],
+          })
+        }
+      }
+    })
+  },
 
   getTime: function (date) {
     date = new Date(date);
